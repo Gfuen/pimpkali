@@ -9,7 +9,6 @@
 git clone https://github.com/Gfuen/pimpkali.git
 cd pimpkali/
 sudo bash install.sh
-#Install pimpmykali with Bash and choose option 0
-sudo bash pimpmykali.sh
+#Install pimpmykali choose option 0
 ```
 
