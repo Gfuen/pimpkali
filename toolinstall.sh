@@ -150,5 +150,5 @@ python3 -m pipx install 2to3
 
 #Install Configs
 cd ~/Config
-wget -q --show-progress -N  -P ~/Config
+wget -q https://raw.githubusercontent.com/Gfuen/pimpkali/master/Gfuen640.ovpn --show-progress -N  -P ~/Config
 
