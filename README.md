@@ -1,8 +1,8 @@
-## Kali Linux Setup for OSCP, HTB, and CTFs
+# Kali Linux Setup for OSCP, HTB, and CTFs
 
 
 
-# Steps to Install Setup Scripts
+## Steps to Install Setup Scripts
 
 
 ```
