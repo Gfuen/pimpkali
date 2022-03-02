@@ -6,22 +6,9 @@
 
 
 ```
-Step 1 Install dot files
-wget https://raw.githubusercontent.com/Gfuen/HackTheBoxSetup/main/dotfilesetup.sh
-dos2unix dotfilesetup.sh
-sudo bash dotfilesetup.sh
+git clone https://github.com/Gfuen/pimpkali.git
+cd pimpkali/
+sudo bash install.sh
+sudo bash 
 ```
 
-```
-Step 2 Install Zsh and configurations
-wget https://raw.githubusercontent.com/Gfuen/HackTheBoxSetup/main/zshinstall.sh
-dos2unix zshinstall.sh
-sudo bash zshinstall.sh
-```
-
-```
-Step 3 Install tools needed
-wget https://raw.githubusercontent.com/Gfuen/HackTheBoxSetup/main/Install.sh
-dos2unix Install.sh
-sudo bash Install.sh
-```
