@@ -18,7 +18,7 @@ chsh -s /bin/zsh
 
 # Make sure pipx is installed
 echo -e "${GREEN}[*] Checking if PIPX is installed${NC}"
-if pip list | grep -F pipx &> /dev/null; then
+if pipx list; then
     echo -e "${GREEN}[*] Pipx installed${NC}"
 else
     echo 'uh oh. Pipx is not installed.'
@@ -146,7 +146,7 @@ ln -sf ~/toolkit/joomscan/joomscan.pl /usr/local/bin/joomscan
 
 # s3recon
 echo -e "${GREEN}[*] Installing s3recon${NC}"
-python3 -m pipx install 2to3
+python3 -m pipx install s3recon
 
 #Install Configs
 cd ~/Config
