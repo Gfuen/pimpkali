@@ -37,7 +37,6 @@ apt-get install -y gcc
 apt-get install -y inetutils-ping 
 apt-get install -y make  
 apt-get install -y python3-pip 
-apt-get install -y python-pip 
 apt-get install -y dnsutils 
 
 #Install gnumeric for converting excel files
