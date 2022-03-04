@@ -42,6 +42,11 @@ else
     git clone --depth=1 https://github.com/marlonrichert/zsh-autocomplete ~/.oh-my-zsh/plugins/zsh-autocomplete
 fi
 
+if [ -d ~/.oh-my-zsh/plugins/zsh-syntax-highlighting ]; then
+    cd ~/.oh-my-zsh/plugins/zsh-syntax-highlighting && git pull
+else
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
+fi
 
 # INSTALL FONTS
 
