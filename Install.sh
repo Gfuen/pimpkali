@@ -29,13 +29,13 @@ echo -e "${GREEN}[*] Install Zsh and Configurations${NC}"
 dos2unix zshinstall.sh
 bash zshinstall.sh
 
+#Install Tools
+echo -e "${GREEN}[*] Install Tools${NC}"
+dos2unix toolinstall.sh
+bash toolinstall.sh
+
 #Install Custom Pimpmykali
 echo -e "${GREEN}[*] Install Pimpmykali${NC}"
 echo -e "${GREEN}[*] Press Option 0!!!!!!!!!!!!!!!${NC}"
 dos2unix pimpmykali.sh
 bash pimpmykali.sh
-
-#Install Tools
-echo -e "${GREEN}[*] Install Tools${NC}"
-dos2unix toolinstall.sh
-bash toolinstall.sh
