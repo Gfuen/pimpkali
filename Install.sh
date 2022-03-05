@@ -13,29 +13,26 @@ NC='\033[0m'
 
 #Apt update Kali box
 echo -e "${GREEN}[*] Apt Update${NC}"
-apt -y update
+apt-get -y update
 
 #Install dos2unix
-echo -e "${GREEN}[*] Install dos2unix${NC}"
+echo -e "${GREEN}[*] Install dos2unix and change files to correect format${NC}"
 apt-get install -y dos2unix
+dos2unix *.sh
 
 #Install dot files
 echo -e "${GREEN}[*] Install dot files${NC}"
-dos2unix dotfilesetup.sh
 bash dotfilesetup.sh
 
 #Install Zsh and Configurations
 echo -e "${GREEN}[*] Install Zsh and Configurations${NC}"
-dos2unix zshinstall.sh
 bash zshinstall.sh
-
-#Install Tools
-echo -e "${GREEN}[*] Install Tools${NC}"
-dos2unix toolinstall.sh
-bash toolinstall.sh
 
 #Install Custom Pimpmykali
 echo -e "${GREEN}[*] Install Pimpmykali${NC}"
-echo -e "${GREEN}[*] Press Option 0!!!!!!!!!!!!!!!${NC}"
-dos2unix pimpmykali.sh
+echo -e "${GREEN}[*] Press Option 0 and N to default Root login!!!!!!!!!!!!!!!${NC}"
 bash pimpmykali.sh
+
+#Install Tools
+echo -e "${GREEN}[*] Install Tools${NC}"
+bash toolinstall.sh
