@@ -4,6 +4,9 @@
 GREEN='\033[0;32m'
 NC='\033[0m'
 
+echo -e "${GREEN}[*] Apt update${NC}"
+sudo apt-get update
+
 echo -e "${GREEN}[*] Install Basic Tools${NC}"
 if command -v zsh &> /dev/null && command -v git &> /dev/null && command -v wget &> /dev/null; then
     echo -e "${GREEN}[*] ZSH and Git are already installed${NC}"
